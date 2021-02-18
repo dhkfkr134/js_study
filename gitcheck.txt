@@ -4,3 +4,4 @@ git status                                       -> 로컬 저장소의 현재 �
 git add .                                        -> 파일을 Staging Area로 옮긴다.('.'은 모든 파일 뜻함)
 git commit -m "메시지"                            -> 커밋
 git push origin master                           ->나는 origin=>my로 해둠
+git checkout <branch>                            ->사용할 브런치 이동
