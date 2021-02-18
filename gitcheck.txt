@@ -1,1 +1,6 @@
 git pull origin master --allow-unrelated-histories  -> 로컬과 원격간에 공통분모가 없는 상태에서 병합하면 안되기때문에 하는거
+git remote add origin http://어쩌구저쩌구GitHub   -> 저장소 별명 설정하기
+git status                                       -> 로컬 저장소의 현재 상태를 보여준다.
+git add .                                        -> 파일을 Staging Area로 옮긴다.('.'은 모든 파일 뜻함)
+git commit -m "메시지"                            -> 커밋
+git push origin master                           ->나는 origin=>my로 해둠
